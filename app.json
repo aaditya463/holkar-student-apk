@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Govt. Holkar Science College Student Portal",
+    "slug": "holkar-science-student-portal",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Holkar Science College to access camera for attendance QR scanning."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.edu.holkarscience.app",
+      "buildNumber": "7"
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "in.edu.holkarscience.app",
+      "versionCode": 7
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
